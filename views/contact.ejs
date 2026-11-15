@@ -1,1 +1,184 @@
-<h1>Contact Me</h1>
+<%- include('partials/header') %>
+
+
+<main>
+
+    <section class="page-heading">
+
+        <div class="container py-5">
+
+            <h1>
+                Contact Me
+            </h1>
+
+            <p>
+
+                Feel free to contact me regarding
+                IT co-op, internship and technical opportunities.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section class="content-section">
+
+        <div class="container py-5">
+
+            <div class="row g-4">
+
+
+                <!-- Contact information -->
+                <div class="col-md-5">
+
+                    <div class="contact-card">
+
+                        <h2>
+                            Get In Touch
+                        </h2>
+
+                        <p>
+
+                            I am interested in opportunities where
+                            I can continue developing my skills in networking,
+                            IT support, computer systems and cybersecurity.
+
+                        </p>
+
+                        <h3>Email</h3>
+
+                        <p>
+
+                            <a href="mailto:Osariemenarughu@gmail.com">
+                                Osariemenarughu@gmail.com
+                            </a>
+
+                        </p>
+
+                        <h3>LinkedIn</h3>
+
+                        <p>
+
+                            <a href="https://www.linkedin.com/in/osariemen-arughu-4685552bb/">
+                                View My LinkedIn Profile
+                            </a>
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Form -->
+                <div class="col-md-7">
+
+                    <div class="contact-card">
+
+                        <h2>
+                            Send a Message
+                        </h2>
+
+                        <form action="mailto:Osariemenarughu@gmail.com"
+                              method="post"
+                              enctype="text/plain">
+
+
+                            <div class="mb-3">
+
+                                <label for="name"
+                                       class="form-label">
+
+                                    Name
+
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="name"
+                                       name="name"
+                                       required>
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label for="email"
+                                       class="form-label">
+
+                                    Email
+
+                                </label>
+
+                                <input type="email"
+                                       class="form-control"
+                                       id="email"
+                                       name="email"
+                                       required>
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label for="cell"
+                                       class="form-label">
+
+                                    Cell Number
+
+                                </label>
+
+                                <input type="number"
+                                       class="form-control"
+                                       id="cell"
+                                       name="cell"
+                                       required>
+
+                            </div>
+
+
+                            <div class="mb-3">
+
+                                <label for="comments"
+                                       class="form-label">
+
+                                    Comments
+
+                                </label>
+
+                                <textarea class="form-control"
+                                          id="comments"
+                                          name="comments"
+                                          rows="5"></textarea>
+
+                            </div>
+
+
+                            <input type="submit"
+                                   class="btn btn-primary"
+                                   value="Submit">
+
+
+                            <input type="reset"
+                                   class="btn btn-secondary"
+                                   value="Reset">
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<%- include('partials/footer') %>
