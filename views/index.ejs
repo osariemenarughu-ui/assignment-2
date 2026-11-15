@@ -1,11 +1,97 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('partials/header') %>
+
+
+<main>
+
+    <!-- Main introduction -->
+    <section class="hero-section">
+
+        <div class="container py-5">
+
+            <p class="small-heading">
+                INFORMATION TECHNOLOGY STUDENT
+            </p>
+
+            <h1 class="display-4">
+                Hi, I'm Osariemen Arughu
+            </h1>
+
+            <h2 class="hero-subtitle">
+                Networking & IT Security Student
+                at Ontario Tech University
+            </h2>
+
+            <p class="hero-text">
+
+                I am an Information Technology student
+                interested in networking, computer systems,
+                troubleshooting and cybersecurity.
+
+            </p>
+
+            <p class="hero-text">
+
+                I am currently looking for an IT co-op
+                or internship where I can continue developing
+                my technical skills.
+
+            </p>
+
+            <a href="/projects"
+               class="btn btn-primary me-2">
+
+                View Projects
+
+            </a>
+
+            <a href="/contact"
+               class="btn btn-outline-light">
+
+                Contact Me
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Background -->
+    <section class="content-section">
+
+        <div class="container py-5">
+
+            <h2>
+                About My Background
+            </h2>
+
+            <p>
+
+                My studies at Ontario Tech University
+                have given me experience with networking,
+                computer systems, programming and cybersecurity.
+
+            </p>
+
+            <p>
+
+                I also have hands-on experience with computer
+                hardware, system setup and technical troubleshooting.
+
+            </p>
+
+            <a href="/about"
+               class="btn btn-primary">
+
+                Learn More About Me
+
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<%- include('partials/footer') %>
