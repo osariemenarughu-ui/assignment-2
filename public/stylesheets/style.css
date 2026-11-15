@@ -1,8 +1,207 @@
+@charset "UTF-8";
+
+
+/* Main page */
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #11161c;
+    color: #d9e0e5;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
+
+/* General links */
 a {
-  color: #00B7FF;
+    color: #6db6dd;
+}
+
+
+/* Shared header */
+.site-header {
+    background-color: #0b1015;
+    border-bottom: 1px solid #303c47;
+}
+
+
+/* Portfolio name */
+.site-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Navigation */
+.nav-link {
+    color: #c7d0d7;
+    border-radius: 5px;
+    transition: background 2s, color 2s;
+}
+
+
+.nav-link:hover {
+    background-color: #2785b8;
+    color: white;
+}
+
+
+/* Home hero */
+.hero-section {
+    min-height: 420px;
+
+    background: linear-gradient(
+        45deg,
+        #161d24 0%,
+        #1b2b35 100%
+    );
+}
+
+
+.small-heading {
+    color: #6db6dd;
+}
+
+
+.hero-subtitle {
+    color: #c7d0d7;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+.hero-text {
+    max-width: 750px;
+}
+
+
+/* Inner page heading */
+.page-heading {
+    background: linear-gradient(
+        45deg,
+        #161d24 0%,
+        #1b2b35 100%
+    );
+}
+
+
+/* Main content sections */
+.content-section {
+    background: linear-gradient(
+        to right,
+        #161d24 0%,
+        #192129 100%
+    );
+
+    border-top: 1px solid #2b3540;
+}
+
+
+/* Headings */
+h1,
+h2 {
+    color: white;
+}
+
+
+h3 {
+    color: #6db6dd;
+}
+
+
+/* Profile */
+.profile-card {
+    background-color: #1b232b;
+    padding: 20px;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+}
+
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* Video */
+.intro-video {
+    width: 80%;
+    height: auto;
+    background-color: black;
+    border: 1px solid #394957;
+}
+
+
+/* Projects */
+.project-card {
+    background-color: #1b232b;
+    padding: 25px;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+    transition: background 2s;
+}
+
+
+.project-card:hover {
+    background-color: #222c35;
+}
+
+
+/* Contact */
+.contact-card {
+    background-color: #1b232b;
+    padding: 25px;
+    border: 1px solid #303c47;
+    border-radius: 6px;
+}
+
+
+/* Form */
+.form-control {
+    background-color: #12181e;
+    color: white;
+    border: 1px solid #394957;
+}
+
+
+.form-control:focus {
+    background-color: #12181e;
+    color: white;
+}
+
+
+/* Main button */
+.btn-primary {
+    background-color: #2785b8;
+    border-color: #2785b8;
+}
+
+
+.btn-primary:hover {
+    background-color: #3999cc;
+    border-color: #3999cc;
+}
+
+
+/* Footer */
+.site-footer {
+    background-color: #0b1015;
+    color: #87949e;
+    border-top: 1px solid #303c47;
+}
+
+
+.footer-link {
+    color: #6db6dd;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.footer-link:hover {
+    color: white;
 }
